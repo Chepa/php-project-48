@@ -1,0 +1,23 @@
+{
+    "name": "hexlet/code",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        },
+        "files": [
+            "src/gendiff.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Dmitrii",
+            "email": "dmitrii.chepurko@gmail.com"
+        }
+    ],
+    "bin": [
+        "bin/gendiff"
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+}
